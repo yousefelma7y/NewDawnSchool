@@ -25,6 +25,7 @@ import store from "./redux/store";
 const dontShow = ["login", "dashboard"];
 
 function App() {
+  
   return (
     <Provider store={store}>
       <BrowserRouter>
